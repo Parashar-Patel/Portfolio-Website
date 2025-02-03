@@ -90,7 +90,7 @@ function adjustAnimationsForScreenSize() {
         
                     isAnimating = false;
                 });
-            }, 20);
+            }, 5);
         }
 
         document.addEventListener('mousemove', updateCursorPosition);
